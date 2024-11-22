@@ -1,0 +1,78 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+}
+
+.headerEditor {
+  width: 80vh;
+  height: 60px;
+  background-color: rgb(99, 97, 97);
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset-button {
+    margin: 20px 15px;
+    background: none;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdown {
+  margin: 10px 10px;
+  padding-left: 5px;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.copy-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: medium;
+  
+}
+
+.footerEditor {
+  display: flex;
+  justify-content: space-between;
+  width: 80vh;
+  height: 55px;
+  padding: 0; /* İç boşlukları sıfırlayın */
+  margin: 0;
+  background-color: rgb(99, 97, 97);
+}
+
+.footer {
+  width: auto;
+  padding: 10px;
+  height: 100px;
+  background-color: rgb(59, 59, 59);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.431);
+}
