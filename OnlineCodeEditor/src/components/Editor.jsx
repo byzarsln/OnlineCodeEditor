@@ -26,7 +26,8 @@ function HandleEditor () {
     }
 
     const resetCode = () => {
-        setCode(initialCode[language])
+        setCode(initialCode[language]);
+        savedCode.current[language] = initialCode[language];
     }
 
     const copyCode = () => {
