@@ -36,7 +36,7 @@ function HandleEditor () {
     }
 
     return (
-        <div className='all'>
+        <div>
             <div className='headerEditor'>
                 <Dropdown selectedLang={language} changeLang={handleChangeLang} /> 
                 <ResetButton onReset={resetCode} />
