@@ -70,4 +70,8 @@ Bütün sourcelarımızın bulunduğu dosyalarımız **src** klasörünün altı
     ```javascript
     setTimeout(() => setCopied(false), 3000);
     ```  
-  - Böylece "Copied" yazısını yalnızca 3 saniyeliğine tutmuş oluyoruz.  
+  - Böylece "Copied" yazısını yalnızca 3 saniyeliğine tutmuş oluyoruz.
+ ---
+
+### Görünüm:
+  - <img width="848" alt="Code Editor Foto" src="https://github.com/user-attachments/assets/21cdef7b-eda8-4f9f-af17-4195706b063a">
